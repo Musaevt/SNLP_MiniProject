@@ -1,9 +1,9 @@
 # SNLP_MiniProject
 
 ## Team: Mavericks
-Rajat Khanna: 6826666
-Timur Musav:6810518
-Zain Ul Abidin: 6819846
+### Rajat Khanna: 6826666
+### Timur Musav:6810518
+### Zain Ul Abidin: 6819846
 
 ## Configuration:
 Running of this project requires two parameters to be passed through the main args. 
