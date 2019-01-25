@@ -3,6 +3,7 @@ package SNLP_Project;
 import Configuration.Config;
 import FileParser.FileRecord;
 import TextProcessor.TextProcessor;
+import WebSearch.RecordProcessor;
 import WebSearch.RDFTriple;
 
 import java.io.BufferedWriter;
@@ -37,7 +38,7 @@ public class App {
             System.out.println(i+"--");
             RDFTriple triple = TextProcessor.constructTripleFromClause(record.getSentence());
             triple.setFactId(record.getRecordId());
-
+            RecordProcessor.processRecords(triple);
 
             triplesList.add(triple);
             System.out.println(triple);
