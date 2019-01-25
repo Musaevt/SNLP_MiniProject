@@ -1,16 +1,21 @@
 # SNLP_MiniProject
 
+## Team: Mavericks
+Rajat Khanna: 6826666
+Timur Musav:6810518
+Zain Ul Abidin: 6819846
+
 ## Configuration:
 Running of this project requires two parameters to be passed through the main args. 
 1. Name and Path of input file
-2. encoding type
+2. Encoding type
 3. Name and Path of output file (ttl format file)
 
-Parameters can be set in the Build configuration's Program Arguments.
+Parameters can be set in the Run/Debug configuration's Program arguments.
 
 
 ## How to build the Project?
-Building this project is simple, Just open the solution in the IntelliJ and run the solution. Make sure parameters are set in the arguments as mentioned
+Open the solution in the IntelliJ and run the solution. Make sure parameters are set in the Run/Debug configuration as mentioned
 in the above section.
 
 ## Approach:
@@ -18,13 +23,12 @@ in the above section.
 subordinate,death place,birthplace,Award,spouse. In the data we had different variations of the relations like nascence place is a variation of birthplace.
 We have mapped the variations of the relation to the common labels.
 
-2. In the facts, we have different arrangements of the facts like. In some facts, we have a relation like Person: deathPlace: Location and in certain facts
+2. In the facts, we have different arrangements of the facts. In some facts, we have a relation like Person: deathPlace: Location and in certain facts
 we have Location: deathPlace Person: In our implementation we have brought these variations into the uniform order. In order to bring these in the
-uniform order, we have normalized the facts by removing special characters.
+uniform order, we have also normalized the facts by removing special characters.
 
-3. Once the facts are arranged in the uniform format then based on the Subject which is in most Relations was Person except foundation place relation, then we have tried to construct the Wikipedia URL and then verified the Wikipedia URL, If the Url is verified then the content of the Wikipedia is
-fetched. From the Wikipedia content, almost all the information pertaining to the subject was available in the infobox which appears on the top right corner of the page,
-we are extracting the content.
+3. Once the facts are arranged in the uniform format then based on the Subject which is in most of the Relations was Person except foundation place relation, then we have tried to construct the Wikipedia URL and then verified the Wikipedia URL, If the Url is verified then the content of the Wikipedia is
+fetched. From the Wikipedia content, almost all the information pertaining to the subject was available in the infobox which appears on the top right corner of the page, and we are extracting that content.
 
 4. Once the content is extracted then based on relation certain labels contain the relevant information about the relation. For example, if we take the example of role relation then Role's relevant words are Prime Minister, President, Chancellor or Opposition leader etc. For each relation, we have
 defined the list of words which can be present inside the infobox content. If the relevant word is found in the infobox's content then we try to match value defined for the label. If the value is matched then we mark the fact as true:1 otherwise we mark it as false:0. For better understanding lets take
