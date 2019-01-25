@@ -1,6 +1,6 @@
 # SNLP_MiniProject
 
-##Configuration:
+## Configuration:
 Running of this project requires two parameters to be passed through the main args. 
 1. path of the file
 2. encoding type
@@ -8,11 +8,11 @@ Running of this project requires two parameters to be passed through the main ar
 Parameters can be set in the Build configuration's Program Arguments.
 
 
-##How to build the Project?
+## How to build the Project?
 Building this project is simple, Just open the solution in the IntelliJ and run the solution. Make sure parameters are set in the arguments as mentioned
 in the above section.
 
-##Approach:
+## Approach:
 1. In the training and test data, we have predefined relations between the facts. Relations are subordinate,subsidiary,author,star,foundation,team,
 subordinate,death place,birthplace,Award,spouse. In the data we had different variations of the relations like nascence place is a variation of birthplace.
 We have mapped the variations of the relation to the common labels.
