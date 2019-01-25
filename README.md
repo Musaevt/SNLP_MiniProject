@@ -2,8 +2,9 @@
 
 ## Configuration:
 Running of this project requires two parameters to be passed through the main args. 
-1. path of the file
+1. Name and Path of input file
 2. encoding type
+3. Name and Path of output file (ttl format file)
 
 Parameters can be set in the Build configuration's Program Arguments.
 
