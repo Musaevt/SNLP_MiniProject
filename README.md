@@ -35,6 +35,6 @@ defined the list of words which can be present inside the infobox content. If th
 the following example: "Pakistan is Benazir Bhutto's role. 1.0"
 First the fact "Pakistan is Benazir Bhutto's role" is converted into the Benazir Bhutto role Pakistan format. 
 In our approach, relevant words for Role are "chancellor of", "prime minister of", "leader of opposition", "politician", 
-If infobox contains any of the above words then we try to match the object value which is Pakistan in our case and assigned fact as true 1.0. 
+If infobox contains any of the above words then we try to match the object value which is Pakistan in our case and assigned the fact as true 1.0. 
 
 *If we are not able to locate valid URL of the fact we assign the fact-value as -1.0.
