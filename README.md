@@ -20,9 +20,7 @@ Open the solution in the IntelliJ and run the solution. Make sure parameters are
 in the above section.
 
 ## Approach:
-1. In the training and test data, we have predefined relations between the facts. Relations are subordinate,subsidiary,author,star,foundation,team,
-subordinate,death place,birthplace,Award,spouse. In the data we had different variations of the relations like nascence place is a variation of birthplace.
-We have mapped the variations of the relation to the common labels.
+1. In the training and test data, we have predefined relations between the facts. Relations are subsidiary, author, star, foundation, team, subordinate, death place, birthplace, Award, spouse. In the data we had different variations of the relations like nascence place is a variation of birthplace. We have mapped the variations of the relation to the common labels.
 
 2. In the facts, we have different arrangements of the facts. In some facts, we have a relation like Person: deathPlace: Location and in certain facts
 we have Location: deathPlace Person: In our implementation we have brought these variations into the uniform order. In order to bring these in the
