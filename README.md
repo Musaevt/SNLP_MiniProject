@@ -8,7 +8,7 @@
 ## Configuration:
 Running of this project requires three parameters to be passed through the main args. 
 1. Name and Path of input file
-2. Encoding type
+2. Encoding type of input file
 3. Name and Path of output file (ttl format file)
 
 Parameters can be set in the Run/Debug configuration's Program arguments.
