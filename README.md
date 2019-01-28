@@ -13,6 +13,7 @@ Running of this project requires two parameters to be passed through the main ar
 
 Parameters can be set in the Run/Debug configuration's Program arguments.
 
+E.g Programs Arugments: "C:\SNLP_Submit\SNLP_MiniProject\Data\test.tsv" "UTF-8" "C:\SNLP_Submit\SNLP_MiniProject\Data\result.ttl"
 
 ## How to build the Project?
 Open the solution in the IntelliJ and run the solution. Make sure parameters are set in the Run/Debug configuration as mentioned
