@@ -41,8 +41,8 @@ If infobox contains any of the above words then we try to match the object value
 
 ## Example facts
 ### Facts True but system marks it as false
-* Amazon foundation place is Seattle, Washington, U.S.	1.0
-* Cassius Marcellus Clay Jr.'s spouse is Yolanda Williams	1.0
-* Harry Potter's author is Joanne Rowling	1.0
-* India is Liaquat Ali Khan' role	1.0
-* Apple foundation place is Los Altos, California, U.S.	1.0
+* Amazon foundation place is Seattle, Washington, U.S.
+* Cassius Marcellus Clay Jr.'s spouse is Yolanda Williams
+* Harry Potter's author is Joanne Rowling
+* India is Liaquat Ali Khan' role
+* Apple foundation place is Los Altos, California, U.S.
