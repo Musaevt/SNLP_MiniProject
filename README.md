@@ -46,3 +46,12 @@ If infobox contains any of the above words then we try to match the object value
 * Harry Potter's author is Joanne Rowling
 * India is Liaquat Ali Khan' role
 * Apple foundation place is Los Altos, California, U.S.
+
+
+### Facts false but systems marks them as true 
+* India is Liaquat Ali Khan nascence place
+* Russia is Vladimir Putin nascence place
+* Germany is Angela Merkel nascence place
+* Joseph Stalin's death place is Russia
+* Karl Benz's birth place is German.
+
