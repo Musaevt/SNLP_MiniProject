@@ -48,7 +48,7 @@ If infobox contains any of the above words then we try to match the object value
 * Apple foundation place is Los Altos, California, U.S.
 
 
-### Facts are false but systems marks them as true 
+### Facts are false but system marks them as true 
 * India is Liaquat Ali Khan nascence place
 * Russia is Vladimir Putin nascence place
 * Germany is Angela Merkel nascence place
