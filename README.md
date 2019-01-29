@@ -37,3 +37,12 @@ In our approach, relevant words for Role are "chancellor of", "prime minister of
 If infobox contains any of the above words then we try to match the object value which is Pakistan in our case and assigned the fact as true 1.0. 
 
 *If we are not able to locate valid URL of the fact we assign the fact-value as -1.0.
+
+
+## Example facts
+### Facts True but system marks it as false
+* Amazon foundation place is Seattle, Washington, U.S.	1.0
+* Cassius Marcellus Clay Jr.'s spouse is Yolanda Williams	1.0
+* Harry Potter's author is Joanne Rowling	1.0
+* India is Liaquat Ali Khan' role	1.0
+* Apple foundation place is Los Altos, California, U.S.	1.0
