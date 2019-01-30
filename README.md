@@ -44,7 +44,7 @@ If infobox contains any of the above words then we try to match the object value
 * Amazon foundation place is Seattle, Washington, U.S.
 * Cassius Marcellus Clay Jr.'s spouse is Yolanda Williams
 * Harry Potter's author is Joanne Rowling
-* India is Liaquat Ali Khan' role
+* India is Liaquat Ali Khan's role
 * Apple foundation place is Los Altos, California, U.S.
 
 
